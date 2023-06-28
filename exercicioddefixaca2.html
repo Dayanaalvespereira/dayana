@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="res1"></div>
+    <div id="res2"></div>
+
+
+  <script>
+    // Solicitando ao usuário que digite o valor1
+    var valor1 = Number(window.prompt("Digite o valor 1:"));
+    var valor2 = Number(window.prompt("Digite o valor 2:"));
+
+    potenciacao = valor1**valor2
+    modulo = valor1%valor2
+
+    document.getElementById('res1').innerHTML = `potênciação: ${potenciacao}`
+    document.getElementById('res2').innerHTML = `módulo: ${modulo}`
+
+  </script>
+</body>
+</html>
